@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\CardStruct.cs" />
     <Compile Include="Assets\Scripts\CardsKeeper.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
+    <Compile Include="Assets\Scripts\Table.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Unity_Projects/2019.4.19f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

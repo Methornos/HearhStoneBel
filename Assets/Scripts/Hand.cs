@@ -40,6 +40,16 @@ public class Hand : MonoBehaviour
         }
     }
 
+    public void AddToHand(Card card)
+    {
+        if (Cards.Count < 10)
+        {
+            card.CurrentPosition = Cards.Count;
+            card.transform.SetParent(CardsPositions[Cards.Count]);
+            Cards.Add(card);
+        }
+    }
+
     public void ChangeProperty()
     {
         for(int i = 0; i < Cards.Count; i++)
